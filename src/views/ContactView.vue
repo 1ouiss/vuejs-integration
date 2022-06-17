@@ -11,7 +11,7 @@ import MainComponentVue from '@/components/MainComponent.vue'
 import FooterComponentVue from '@/components/FooterComponent.vue'
 import AsideComponentVue from '@/components/AsideComponent.vue'
 export default{
-    name: 'AboutView',
+    name: 'ContactView',
     components: {
         MainComponentVue,
         FooterComponentVue,
@@ -19,9 +19,8 @@ export default{
     },
     data() {
         return {
-            title: 'Aside'
+            title: 'Contact'
         }
     }
 }
-
 </script>
